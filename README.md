@@ -48,12 +48,12 @@ During training, the agents observe states, predict actions and then observe res
 
 | parameter   | value    |  description |
 |---------|---------------|-------------|
-|BUFFER_SIZE| |100000| replay buffer size |
-BATCH_SIZE | 128        | minibatch size
-GAMMA | 0.99            | discount factor
-TAU | 3e-2              | for soft update of target parameters |
-LR_ACTOR | 3e-4         | learning rate of the actor 
-LR_CRITIC | 1e-4        | learning rate of the critic
+|BUFFER_SIZE| 100000| replay buffer size |
+BATCH_SIZE | 128        | minibatch size|
+GAMMA | 0.99            | discount factor|
+TAU | 0.002              | for soft update of target parameters |
+LR_ACTOR | 3e-4         | learning rate of the actor |
+LR_CRITIC | 1e-4        | learning rate of the critic|
 WEIGHT_DECAY | 0        | L2 weight decay - set to 0 to prevent rewards from drowning |
 
 Training can be performed on cpu or gpu. The default is cpu and the setting is stored in the `device` variable of agents.py.
