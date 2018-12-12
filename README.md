@@ -1,6 +1,9 @@
 # UnityML Collaboration and Competition Project
 
-This project demonstrates how two reinforcement learning agents can learn to play tennis cooperatively.
+This project demonstrates how two reinforcement learning agents can learn to play tennis cooperatively as shown here:
+
+<img src="https://github.com/fd17/UnityML-Collaboration-Competition/blob/master/trained_example.gif" width="480" height="270" />
+
 
 ## Requirements
 
